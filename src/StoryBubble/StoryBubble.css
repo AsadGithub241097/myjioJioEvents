@@ -1,0 +1,34 @@
+.StoryBubbleMainDiv {
+  display: flex;
+  padding: 2px 0px 0px 16px;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.ProfileStory {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: padding-box,
+    linear-gradient(to right, #000099, #cc00ff) border-box;
+  border-radius: 50em;
+  border: 2px solid transparent;
+}
+
+.ProfileName {
+  align-self: stretch;
+  color: var(--Light-Primary-Grey-80, rgba(0, 0, 0, 0.65));
+  /* en/Desktop/Body/XXS */
+  font-family: "JioType-Medium";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: -0.06px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

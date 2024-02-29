@@ -1,0 +1,69 @@
+.JioEventHeader {
+  display: flex;
+  height: 64px;
+  padding: 0px 24px 0px 12px;
+  align-items: center;
+  flex: 1 0 0;
+  background: var(--Light-Mint-50, #1eccb0);
+}
+.Logo {
+  display: flex;
+  height: 48px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.EventLogo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  background: url(./HeaderIcons/BG.svg);
+  color: var(--Light-Mint-Inverse, #08332c);
+  font-family: "Jio-TypeBlack";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: -0.48px;
+}
+.EventIcon {
+  width: 18px;
+  height: 18px;
+  padding: 7px;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.EventText {
+  display: flex;
+  padding-right: 12px;
+  align-items: center;
+  gap: 8px;
+  margin-right: 26px;
+}
+
+.SearchIcon {
+  width: 24px;
+  height: 24px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.BellIcon {
+  width: 24px;
+  height: 24px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}

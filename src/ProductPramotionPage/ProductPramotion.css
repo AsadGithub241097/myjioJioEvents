@@ -1,0 +1,140 @@
+.ProductPramoMainDiv {
+}
+
+.ProductPramotionHeading {
+  display: flex;
+  width: auto;
+  padding: 0px 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProductCardsLine1 {
+  display: flex;
+  align-items: flex-start;
+  width: auto;
+  gap: 12px;
+  padding: 0px 16px;
+  overflow: auto;
+  scrollbar-width: none;
+}
+.PPHeading {
+  align-self: stretch;
+  color: var(--Light-Primary-Grey-100, #141414);
+  font-family: "JioType-Bold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.08px;
+}
+
+.Cards {
+  position: relative;
+  left: 0%;
+  top: 50%;
+  overflow: hidden;
+  width: 150px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(225, 202, 255, 0.8);
+}
+.ProductIMG {
+  width: 100px;
+  height: 72px;
+  padding: 5px 0px 21px 65px;
+  flex-shrink: 0;
+}
+.ProductTitle {
+  width: 82px;
+  color: var(--Dark-Secondary-40, #5d2b96);
+  font-family: JioType;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: -0.07px;
+  margin-top: -48px;
+}
+.wave-01 {
+  position: absolute;
+  width: 300%;
+  height: 300%;
+  left: -100%;
+  top: 50%;
+  background-color: rgba(0, 190, 255, 0.4);
+  border-radius: 45%;
+  animation: rotate 10s linear infinite;
+}
+.wave-02 {
+  position: absolute;
+  width: 300%;
+  height: 300%;
+  left: -100%;
+  top: 57%;
+  border-radius: 8px;
+  background: rgba(225, 202, 255, 0.8);
+  animation: rotate 7s linear infinite;
+}
+
+.wave-03 {
+  position: absolute;
+  width: 300%;
+  height: 300%;
+  left: -100%;
+  top: 60%;
+  background-color: rgba(107, 84, 220, 0.5);
+  border-radius: 8px;
+  animation: rotate 5s linear infinite;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ProductCardsLine2 {
+  display: flex;
+  align-items: flex-start;
+  width: auto;
+  gap: 12px;
+  padding: 16px 0px 16px 16px;
+  overflow: auto;
+  scrollbar-width: none;
+}
+.card1 {
+  position: relative;
+  left: 0%;
+  top: 50%;
+  overflow: hidden;
+  width: 150px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(225, 202, 255, 0.8);
+}
+
+.card2 {
+  position: relative;
+  left: 0%;
+  top: 50%;
+  overflow: hidden;
+  width: 150px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(225, 202, 255, 0.8);
+}
+
+.card3 {
+  position: relative;
+  left: 0%;
+  top: 50%;
+  overflow: hidden;
+  width: 150px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(225, 202, 255, 0.8);
+}

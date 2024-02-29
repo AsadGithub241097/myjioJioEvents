@@ -1,0 +1,53 @@
+.EminentSpeakerMainDiv {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.EminentSpeakerHeading {
+  display: flex;
+  padding: 0px 16px;
+  align-items: center;
+  gap: 104px;
+}
+
+.EminentSpeakerRow1 {
+  display: flex;
+  padding-left: 16px;
+  gap: 16px;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.p1 {
+  display: flex;
+  width: 54px;
+  height: 30px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--Dark-Primary-Grey-100, #fff);
+  font-family: "JioType-Bold";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: -0.07px;
+  padding-left: 12px;
+  padding-top: 16px;
+  margin: 0px;
+  text-align: left;
+}
+.CardsRow1 {
+  width: 140px;
+  height: 100px;
+  align-items: flex-start;
+
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+.img {
+  gap: 16px;
+}

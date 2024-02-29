@@ -1,0 +1,64 @@
+.cta {
+  display: flex;
+  padding: 24px 16px;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 10px;
+}
+.ctaTile {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: auto;
+  height: 160px;
+  border-radius: 16px;
+  padding: 24px 16px 0px 24px;
+  background-image: url("/Users/asad.mulla/Desktop/Jio Event /jioevent-mobile/src/components/Cta/ctaBG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  &:nth-child(n) {
+    background-color: #8c7ca1 !important;
+  }
+}
+
+.CtaTopic {
+  width: 240px;
+  color: var(--Light-Primary-Background, #fff);
+  font-family: "JioType-Bold";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: -0.72px;
+  margin: 0px;
+}
+
+.ContactUs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 38px;
+}
+
+.contactustext {
+  color: var(--Light-Primary-Background, #fff);
+  text-align: left;
+  font-family: "JioType-Medium";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.07px;
+}
+
+.Arrowdiv {
+  display: inline-flex;
+  padding: 8px;
+  width: 16px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 250px;
+  background: rgba(0, 0, 0, 0.32);
+}
